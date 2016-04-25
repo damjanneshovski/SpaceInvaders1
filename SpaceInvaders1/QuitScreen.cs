@@ -11,14 +11,24 @@ using System.Media;
 
 namespace SpaceInvaders1
 {
-    public partial class WelcomeScreen : Form
+    public partial class QuitScreen : Form
     {
         private SoundPlayer soundPlayer;
 
-        public WelcomeScreen()
+        public QuitScreen()
         {
             InitializeComponent();
             soundPlayer = new SoundPlayer("Beep.wav");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void button1_MouseEnter(object sender, EventArgs e)
@@ -41,29 +51,6 @@ namespace SpaceInvaders1
         private void button2_MouseLeave(object sender, EventArgs e)
         {
             triangle2.Visible = false;
-        }
-
-        private void button3_MouseEnter(object sender, EventArgs e)
-        {
-            triangle3.Visible = true;
-            soundPlayer.Play();
-        }
-
-        private void button3_MouseLeave(object sender, EventArgs e)
-        {
-            triangle3.Visible = false;
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            QuitScreen q = new QuitScreen();
-            q.ShowDialog();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Controls c = new Controls();
-            c.ShowDialog();
         }
     }
 }

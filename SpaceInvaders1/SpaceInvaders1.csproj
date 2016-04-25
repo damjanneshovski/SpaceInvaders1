@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls.Designer.cs">
+      <DependentUpon>Controls.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,12 +65,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="QuitScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuitScreen.Designer.cs">
+      <DependentUpon>QuitScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="WelcomeScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="WelcomeScreen.Designer.cs">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Controls.resx">
+      <DependentUpon>Controls.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -72,6 +87,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuitScreen.resx">
+      <DependentUpon>QuitScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WelcomeScreen.resx">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
@@ -118,6 +136,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Pixel-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quit_text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yes_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Controls1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
