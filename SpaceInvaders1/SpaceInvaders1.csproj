@@ -71,6 +71,11 @@
     <Compile Include="QuitScreen.Designer.cs">
       <DependentUpon>QuitScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
     <Compile Include="WelcomeScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +95,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QuitScreen.resx">
       <DependentUpon>QuitScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="WelcomeScreen.resx">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
@@ -151,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Controls1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Beep.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

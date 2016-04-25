@@ -18,7 +18,8 @@ namespace SpaceInvaders1
         public WelcomeScreen()
         {
             InitializeComponent();
-            soundPlayer = new SoundPlayer("Beep.wav");
+            InitializeComponent();
+            soundPlayer = new SoundPlayer(Resource1.Beep);
         }
 
         private void button1_MouseEnter(object sender, EventArgs e)

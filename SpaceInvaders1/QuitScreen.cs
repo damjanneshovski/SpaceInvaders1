@@ -18,7 +18,7 @@ namespace SpaceInvaders1
         public QuitScreen()
         {
             InitializeComponent();
-            soundPlayer = new SoundPlayer("Beep.wav");
+            soundPlayer = new SoundPlayer(Resource1.Beep);
         }
 
         private void button1_Click(object sender, EventArgs e)
