@@ -66,5 +66,11 @@ namespace SpaceInvaders1
             Controls c = new Controls();
             c.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Game g = new Game();
+            g.ShowDialog();
+        }
     }
 }
