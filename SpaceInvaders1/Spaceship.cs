@@ -13,7 +13,7 @@ namespace SpaceInvaders1
         private int kInterval = 10;
         public bool died = false;
 
-        public Spaceship() : base("spaceship.png")
+        public Spaceship() : base("spaceship.gif")
 		{
             position.X = 20;
             position.Y = 400;
