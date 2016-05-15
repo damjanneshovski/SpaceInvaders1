@@ -53,7 +53,7 @@
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(338, 373);
+            this.button3.Location = new System.Drawing.Point(243, 378);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(114, 20);
             this.button3.TabIndex = 5;
@@ -71,7 +71,7 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(338, 319);
+            this.button2.Location = new System.Drawing.Point(243, 324);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(217, 20);
             this.button2.TabIndex = 4;
@@ -89,7 +89,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(338, 265);
+            this.button1.Location = new System.Drawing.Point(243, 270);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 20);
             this.button1.TabIndex = 1;
@@ -105,9 +105,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.pictureBox1.Image = global::SpaceInvaders1.Properties.Resources.Space_Invaders_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(260, 50);
+            this.pictureBox1.Location = new System.Drawing.Point(152, 50);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(357, 152);
+            this.pictureBox1.Size = new System.Drawing.Size(351, 171);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -115,7 +115,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::SpaceInvaders1.Properties.Resources.aliens2;
-            this.pictureBox2.Location = new System.Drawing.Point(201, 450);
+            this.pictureBox2.Location = new System.Drawing.Point(94, 450);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(480, 64);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -125,7 +125,7 @@
             // triangle1
             // 
             this.triangle1.Image = global::SpaceInvaders1.Properties.Resources.Pixel_arrow;
-            this.triangle1.Location = new System.Drawing.Point(309, 265);
+            this.triangle1.Location = new System.Drawing.Point(214, 270);
             this.triangle1.Name = "triangle1";
             this.triangle1.Size = new System.Drawing.Size(24, 20);
             this.triangle1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -136,7 +136,7 @@
             // triangle2
             // 
             this.triangle2.Image = global::SpaceInvaders1.Properties.Resources.Pixel_arrow;
-            this.triangle2.Location = new System.Drawing.Point(309, 319);
+            this.triangle2.Location = new System.Drawing.Point(214, 324);
             this.triangle2.Name = "triangle2";
             this.triangle2.Size = new System.Drawing.Size(24, 20);
             this.triangle2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -147,7 +147,7 @@
             // triangle3
             // 
             this.triangle3.Image = global::SpaceInvaders1.Properties.Resources.Pixel_arrow;
-            this.triangle3.Location = new System.Drawing.Point(309, 373);
+            this.triangle3.Location = new System.Drawing.Point(214, 378);
             this.triangle3.Name = "triangle3";
             this.triangle3.Size = new System.Drawing.Size(24, 20);
             this.triangle3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -161,8 +161,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImage = global::SpaceInvaders1.Properties.Resources.background;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(863, 561);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(653, 561);
             this.Controls.Add(this.triangle3);
             this.Controls.Add(this.triangle2);
             this.Controls.Add(this.triangle1);
